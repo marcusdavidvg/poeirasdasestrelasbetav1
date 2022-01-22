@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Walter+Turncoat&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+
+body{
+    min-height: 1280px;
+    min-width: 360px;
+    max-width: 720px;
+    max-height: 4010px;
+    background-color: rgba(12, 5, 27, 1);
+    
+}
+
+/* cabeçalho */
+
+.logo {
+    max-width: 70px;
+    margin-top: 15px;
+    padding-top: 15px;
+    
+}
+
+
+
+
+.titulo-principal {
+    color: white;
+ 
+    margin-top: 15px;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 26px;
+
+    
+   
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px rgb(192, 192, 192);
+    padding-bottom: 10px;
+    margin-left: 2px;
+    flex-wrap: wrap;
+    background-color: rgb(9, 3, 22);
+}
+
+/* meio */
+
+.titulo {
+color: rgb(255, 227, 152);
+font-family: 'Walter Turncoat', cursive;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+.apresentacao {
+    color: azure;
+    font-family: 'Walter Turncoat', cursive;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 18px;
+     margin-left: 5%;
+     margin-top: 20px;
+     
+}
+
+.resposta {
+    color: gainsboro;
+}
+
+
+/* nebulosa de orion */ 
+
+.info-orion-p1 {
+  margin-top: 50px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+ 
+  
+  
+}
+ 
+
+.nome-corpo-orion {
+    color: floralwhite;
+    text-align: center;
+    border-top: solid 1px grey;
+    padding-top: 30px;
+    margin-top: 20px;
+    font-size: 28px;
+   
+}
+
+.img-corpo-orion {
+    max-width: 560px;
+    margin-top: 25px;
+    margin-left: 10px;
+    min-height: 105px;
+
+}
+
+.ficha-orion  {
+    font-size: 17px;
+    width: 340px;
+    color: rgb(199, 183, 36);
+    margin-top:30px ;
+    
+    
+}
+
+
+
+.lista-orion {
+    color: khaki;
+max-width: 300px ;
+font-size: 16px;
+gap: 0px;
+display: flex;
+flex-wrap: wrap;
+margin-left: 80px;
+
+}
+
+
+.info-orion-p2 {
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.texto-local-orion  {
+    max-width: 190px ;
+    font-size: 20px;
+    margin-left: 10px;
+    color: khaki;
+    margin-left: 40px;
+}
+
+.img-local-orion {
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-left: 120px;
+}
+
+/* nebulosa de helix */
+
+.info-helix-p1 {
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+    
+  }
+   
+  
+  .nome-corpo-helix {
+      color: floralwhite;
+      text-align: center;
+      border-top: solid 1px grey;
+      padding-top: 30px;
+      margin-top: 20px;
+      font-size: 21px;
+  }
+  
+  .img-corpo-helix {
+    max-width: 560px;
+    margin-top: 25px;
+    margin-left: 10px;
+    min-height: 105px;
+  
+  }
+  
+  .ficha-helix  {
+      font-size: 13px;
+      width: 200px;
+      color: rgb(199, 183, 36);
+      margin-top:20px ;
+      margin-left: 10px;
+      
+      
+  }
+  
+  
+  
+  .lista-helix {
+      color: khaki;
+  max-width: 170px ;
+  font-size: 13px;
+  gap: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  }
+  
+  
+  .info-helix-p2 {
+      margin-top: 10px;
+      
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+  
+  }
+  
+  .texto-local-helix  {
+      max-width: 180px ;
+      font-size: 17px;
+      margin-left: 60px;
+      color: khaki;
+  }
+  
+  .img-local-helix {
+      max-width: 280px;
+      margin-top: 20px;
+      margin-left: 140px;
+  }
+
+
+  /* nebulosa da tarantula*/
+
+  .info-tar-p1 {
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+    
+  }
+   
+  
+  .nome-corpo-tar {
+      color: floralwhite;
+      text-align: center;
+      border-top: solid 1px grey;
+      padding-top: 30px;
+      margin-top: 20px;
+      font-size: 21px;
+  }
+  
+  .img-corpo-tar {
+    max-width: 560px;
+    margin-top: 25px;
+    margin-left: 10px;
+    min-height: 170px;
+  
+  }
+  
+  .ficha-tar  {
+      font-size: 13px;
+      width: 250px;
+      color: rgb(199, 183, 36);
+      margin-top:20px ;
+      margin-left: 0px;
+     margin-bottom: 20px;
+      
+  }
+  
+  
+  
+  .lista-tar{
+      color: khaki;
+  max-width: 280px ;
+  font-size: 13px;
+  gap: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-top: 20px;
+  
+  }
+  
+  
+  .info-tar-p2 {
+      margin-top: 10px;
+      
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+  
+  }
+  
+  .texto-local-tar  {
+      max-width: 200px ;
+      font-size: 17px;
+      margin-left: 60px;
+      color: khaki;
+  }
+  
+  .img-local-tar {
+      max-width: 280px;
+      margin-top: 20px;
+      margin-left: 120px;
+  }
+
+  /* rodape */
+
+  .final {
+      text-align: center;
+      color: royalblue;
+      margin-top: 300px;
+
+  }
+
+  .voltar {
+      color: royalblue;
+      background-color: snow;
+      padding: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: impact;
+      border-radius: 8px;
+  }
+
+  .rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(187, 187, 187);
+   
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+   
+    border-top: solid 1px white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+    margin-top: 50px;
+    
+}

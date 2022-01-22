@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Walter+Turncoat&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border-size: border-box;
+
+}
+
+body {
+    font-size: 100%;
+    background-color: rgba(12, 5, 27, 1);
+    max-width: 720px;
+    min-width: 360px;
+    max-height: 1440px;
+    min-height: 1280px;
+
+}
+
+
+
+/* cabeçalho */
+
+.logo {
+    max-width: 100px;
+    margin-top: 15px;
+    padding-top: 15px;
+    
+}
+
+
+
+
+.titulo-principal {
+    color: white;
+ 
+    margin-top: 15px;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 26px;
+
+    
+   
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px rgb(192, 192, 192);
+    padding-bottom: 10px;
+    margin-left: 2px;
+    flex-wrap: wrap;
+}
+
+.insta {
+    color: honeydew;
+    font-family: 'Walter Turncoat', cursive;
+    padding-top: 10px;
+    padding-left: 5px;
+  
+   
+}
+
+/* meio */ 
+.principal-n1 {
+background-color:rgb(9, 5, 20);
+height: 460px;
+min-width: 360px;
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+gap: 20px;
+flex-wrap: wrap;
+
+
+
+ 
+}
+
+.img-main {
+
+    
+    min-width: 590px;
+   
+   padding-top: 20px;
+    
+    opacity: 60%;
+    
+   
+    
+}
+
+
+.sagan {
+    color: whitesmoke;
+    
+    
+    font-size: 26px;
+    
+    
+
+
+}
+
+.conheca {
+    color: rgb(170, 157, 38);
+   text-align: center;
+    
+    padding-top: 20px;
+    border-top: solid 1px rgb(187, 187, 187);
+    font-family: 'Walter Turncoat', cursive;  
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-top: 60px;
+  
+  
+    
+    
+}
+
+.main {
+
+}
+
+
+.menu {
+   margin-top: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+ 
+  
+}
+
+.menu-2 {
+    margin-top: 50px;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+ 
+}
+
+
+
+.menu-link {
+    
+    color: rgb(7, 3, 15);
+   
+    font-family: 'Walter Turncoat', cursive; 
+    
+    font-size: 17px;
+    
+   
+    
+    
+   
+    
+      
+}
+
+.menu-link:hover {
+    color: rgb(16, 90, 83);
+    
+}
+
+.buraco {
+    max-width: 140px;
+    padding: 29px;
+    background-color: khaki;
+    border-radius: 9px;
+    
+}
+
+.estrela {
+    max-width: 140px;
+    text-align: center;
+    padding: 15px;
+    background-color: khaki;
+    border-radius: 9px;
+    
+
+}
+
+.nebulosa {
+    max-width: 140px;
+    padding: 30px;
+    border-radius: 9px;
+    background-color: khaki;
+    margin-right: 50px;
+}
+
+.galaxia {
+    max-width: 140px;
+    padding: 30px;
+    background-color: khaki;
+    border-radius: 9px;
+    margin-left: 40px;
+}
+
+.mais {
+    max-width: 140px;
+    text-align: center;
+    padding: 15px;
+    background-color: khaki;
+    border-radius: 9px;
+    padding-left: 165px;
+    padding-right: 165px;
+    
+}
+
+.menu-3 {
+    margin-top: 100px;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+.comunidade {
+     text-transform: uppercase;
+    color: rgb(30, 5, 51);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+    margin-top: 100px;
+    border-radius: 13px;
+    padding-top: 15px;
+    padding: 15px;
+    background-color: rgb(138, 130, 64);
+
+    
+    
+
+}
+
+.comunidade:hover{
+    background-color: rgb(156, 147, 66);
+}
+
+.em-breve {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-top: solid 0,6px white;
+    padding-top: 10px;
+
+}
+
+
+
+
+/* rodapé */
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(187, 187, 187);
+   
+    text-align: center;
+    background-color: rgb(43, 42, 42);
+   
+    border-top: solid 1px white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+    margin-top: 80px;
+    
+}
+
+
+

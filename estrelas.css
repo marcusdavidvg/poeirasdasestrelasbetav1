@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Walter+Turncoat&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+
+body{
+    min-height: 1280px;
+    min-width: 360px;
+    max-width: 720px;
+    max-height: 4010px;
+    background-color: rgba(12, 5, 27, 1);
+    
+}
+
+/* cabeçalho */
+
+.logo {
+    max-width: 70px;
+    margin-top: 15px;
+    padding-top: 15px;
+    
+}
+
+
+
+
+.titulo-principal {
+    color: white;
+ 
+    margin-top: 15px;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 26px;
+
+    
+   
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px rgb(192, 192, 192);
+    padding-bottom: 10px;
+    margin-left: 2px;
+    flex-wrap: wrap;
+    background-color: rgb(9, 3, 22);
+}
+
+/* meio */
+
+.titulo {
+color: rgb(255, 227, 152);
+font-family: 'Walter Turncoat', cursive;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+.apresentacao {
+    color: azure;
+    font-family: 'Walter Turncoat', cursive;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 18px;
+     margin-left: 5%;
+     margin-top: 20px;
+     
+}
+
+.resposta {
+    color: gainsboro;
+}
+
+
+/* nebulosa de orion */ 
+
+.info-orion-p1 {
+  margin-top: 20px;
+  margin-left: 120px;
+ 
+ 
+  
+  
+}
+ 
+
+.nome-corpo-orion {
+    color: rgb(101, 140, 197);
+    text-align: center;
+    border-top: solid 1px grey;
+    padding-top: 30px;
+    margin-top: 20px;
+    font-size: 28px;
+    
+   
+}
+
+.img-corpo-orion {
+    max-width: 660px;
+    margin-top: 25px;
+    margin-left: 10px;
+    min-height: 305px;
+    
+
+}
+
+.exemplo {
+    color: darkgrey;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.lista-geral {
+
+
+}
+
+.ficha-orion  {
+    font-size: 17px;
+    width: 300px;
+    color: rgb(199, 183, 36);
+    margin-top:30px ;
+
+    
+    
+}
+
+
+
+.lista-orion {
+    color: khaki;
+max-width: 320px ;
+font-size: 16px;
+gap: 20px;
+display: flex;
+flex-wrap: wrap;
+margin-left: 10px;
+
+}
+
+.info-orion-p2{
+   
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.img-local-orion {
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 70px;
+  
+}
+
+/* nebulosa de helix */
+
+
+
+  /* rodape */
+
+  .final {
+      text-align: center;
+      color: royalblue;
+      margin-top: 100px;
+
+  }
+
+  .voltar {
+      color: royalblue;
+      background-color: snow;
+      padding: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: impact;
+      border-radius: 8px;
+  }
+
+  .rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(187, 187, 187);
+   
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+   
+    border-top: solid 1px white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+    margin-top: 50px;
+    
+}

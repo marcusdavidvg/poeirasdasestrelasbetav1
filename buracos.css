@@ -1,0 +1,13 @@
+h3 {
+    font-size: 40px;
+}
+
+body {
+    min-width: 720px;
+    max-width: 1440px;
+    
+}
+
+.joia {
+    min-width: 500px;
+}
